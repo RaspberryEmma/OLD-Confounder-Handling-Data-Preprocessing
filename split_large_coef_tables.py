@@ -12,16 +12,16 @@ case = int(len(df.columns) - 4)
 
 if (case == 32):
 	df_1 = df.iloc[:, range(0,    18+1)]   # includes method, intercept, X
-	df_2 = df.iloc[:, range(19+1, 34+1+1)] # includes dummy
+	df_2 = df.iloc[:, range(18+1, 34+1+1)] # includes dummy
 
 	df_1.to_csv(out_fileroot+"_1.csv", index=False)
 	df_2.to_csv(out_fileroot+"_2.csv", index=False)
 
 elif (case == 64):
 	df_1 = df.iloc[:, range(0,    18+1)]   # includes method, intercept, X
-	df_2 = df.iloc[:, range(19+1, 34+1)]
-	df_3 = df.iloc[:, range(35+1, 50+1)]
-	df_4 = df.iloc[:, range(51+1, 66+1+1)] # includes dummy
+	df_2 = df.iloc[:, range(18+1, 34+1)]
+	df_3 = df.iloc[:, range(34+1, 50+1)]
+	df_4 = df.iloc[:, range(50+1, 66+1+1)] # includes dummy
 
 	df_1.to_csv(out_fileroot+"_1.csv", index=False)
 	df_2.to_csv(out_fileroot+"_2.csv", index=False)
