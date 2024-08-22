@@ -1,0 +1,6 @@
+Unnamed: 0,pred_mse,r_squared_X,r_squared_Y,causal_effect_est,causal_effect_mcse,causal_effect_bias,avg_abs_param_bias,coverage,open_paths,blocked_paths
+linear,0.932,0.4406,0.6266,0.5348,0.0029,-0.0,0.0263,0.98,16,16.0
+stepwise,0.9454,0.4406,0.6213,0.5352,0.0028,0.0003,0.0183,0.94,16,15.99
+stepwise_X,1.223,0.4406,0.5101,0.5336,0.0031,-0.0012,0.0465,0.98,16,16.0
+two_step_LASSO,0.9335,0.4406,0.626,0.5366,0.0029,0.0017,0.0245,0.94,16,16.0
+two_step_LASSO_X,1.0779,0.4406,0.5682,0.5348,0.003,-0.0001,0.0371,0.98,16,16.0
