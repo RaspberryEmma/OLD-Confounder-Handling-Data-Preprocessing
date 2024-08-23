@@ -2,7 +2,7 @@
     \centering
     \begin{tabular}{@{}ccccccc@{}}
         \toprule
-        Unnamed: 0 & X & Z1 & Z2 & Z3 & Z4 & Z5 \\
+        Unnamed: 0 & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
         \midrule
         linear & 1 & 1.0 & 1.0 & 1.0 & 1 & 1.0 \\
         stepwise & 1 & 0.18 & 1.0 & 0.19 & 1 & 0.16 \\

@@ -1,0 +1,15 @@
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}cccccccc@{}}
+        \toprule
+        Unnamed: 0 & intercept & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        true\_values & 1.0 & 0.5348 & 0.0 & 0.2041 & 0.0 & 0.2041 &  \\
+        linear & 1.0013 & 0.5354 & 0.0002 & 0.2046 & 0.0 & 0.2045 & 0.001 \\
+        stepwise & 1.001 & 0.5356 &  & 0.2046 &  & 0.2044 &  \\
+        stepwise\_X & 1.0004 & 0.5356 &  &  & 0.0001 & 0.2043 &  \\
+        two\_step\_LASSO & 1.001 & 0.5357 &  & 0.2046 &  & 0.2044 &  \\
+        two\_step\_LASSO\_X & 1.0011 & 0.5353 &  &  & 0.0 & 0.2045 &  \\
+        \bottomrule
+    \end{tabular}
+\end{table}

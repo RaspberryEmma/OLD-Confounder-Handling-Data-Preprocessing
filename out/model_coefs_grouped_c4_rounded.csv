@@ -1,4 +1,4 @@
-Unnamed: 0,intercept,X,Z1,Z2,Z3,Z4,Z5
+Unnamed: 0,intercept,X,Z_LL,Z_LH,Z_HL,Z_HH,Z_dummy
 true_values,1.0,0.5348,0.0,0.5774,0.0,0.5774,
 linear,0.9985,0.5351,-0.0008,0.5768,-0.0002,0.5771,0.001
 stepwise,0.9984,0.5352,,0.5768,,0.577,

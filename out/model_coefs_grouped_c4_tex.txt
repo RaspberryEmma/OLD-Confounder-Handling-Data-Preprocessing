@@ -2,7 +2,7 @@
     \centering
     \begin{tabular}{@{}cccccccc@{}}
         \toprule
-        Unnamed: 0 & intercept & X & Z1 & Z2 & Z3 & Z4 & Z5 \\
+        Unnamed: 0 & intercept & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
         \midrule
         true\_values & 1.0 & 0.5348 & 0.0 & 0.5774 & 0.0 & 0.5774 &  \\
         linear & 0.9985 & 0.5351 & -0.0008 & 0.5768 & -0.0002 & 0.5771 & 0.001 \\

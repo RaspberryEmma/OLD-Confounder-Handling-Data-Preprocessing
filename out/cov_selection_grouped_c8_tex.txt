@@ -1,0 +1,14 @@
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{@{}ccccccc@{}}
+        \toprule
+        Unnamed: 0 & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        linear & 1 & 1.0 & 1.0 & 1.0 & 1 & 1.0 \\
+        stepwise & 1 & 0.125 & 1.0 & 0.145 & 1 & 0.15 \\
+        stepwise\_X & 1 & 0.15 & 0.175 & 1.0 & 1 & 0.23 \\
+        two\_step\_LASSO & 1 & 0.405 & 1.0 & 0.415 & 1 & 0.42 \\
+        two\_step\_LASSO\_X & 1 & 0.465 & 0.44 & 1.0 & 1 & 0.52 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
