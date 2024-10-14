@@ -1,0 +1,6 @@
+Unnamed: 0,X,Z_LL,Z_LH,Z_HL,Z_HH,Z_dummy
+linear,1,1.0,1.0,1.0,1,1.0
+stepwise,1,0.1445,1.0,0.1475,1,0.15
+stepwise_X,1,0.1655,0.159,1.0,1,0.149
+two_step_LASSO,1,0.445,1.0,0.4285,1,0.448
+two_step_LASSO_X,1,0.4475,0.4205,1.0,1,0.437
