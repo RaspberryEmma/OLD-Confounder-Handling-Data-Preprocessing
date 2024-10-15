@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        \multirow{2}{*}{Statistical Method} & \multicolumn{6}{c}{Dispersion between covariates within groups} \\           & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        linear & 0 & 0.0 & 0.0 & 0.0 & 0 & 0 \\
+        stepwise & 0 & 0.005 & 0.0 & 0.0001 & 0 & 0 \\
+        stepwise\_X & 0 & 0.0018 & 0.0004 & 0.0 & 0 & 0 \\
+        two\_step\_LASSO & 0 & 0.0004 & 0.0 & 0.005 & 0 & 0 \\
+        two\_step\_LASSO\_X & 0 & 0.0004 & 0.0001 & 0.0 & 0 & 0 \\
+    \bottomrule
+\end{tabular}
