@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        Unnamed: 0 & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        linear & 1 & 1.0 & 1.0 & 1.0 & 1.0 & 1.0 \\
+        stepwise & 1 & 0.9996 & 0.9995 & 0.9994 & 0.9998 & 0.1755 \\
+        stepwise\_X & 1 & 0.9998 & 1.0 & 1.0 & 1.0 & 0.1485 \\
+        two\_step\_LASSO & 1 & 0.9999 & 1.0 & 0.9999 & 1.0 & 0.7405 \\
+        two\_step\_LASSO\_X & 1 & 1.0 & 1.0 & 1.0 & 1.0 & 0.7305 \\
+    \bottomrule
+\end{tabular}

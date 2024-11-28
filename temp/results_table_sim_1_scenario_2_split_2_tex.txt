@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        Unnamed: 0 & causal\_effect\_mcse & causal\_effect\_bias & avg\_abs\_param\_bias & coverage & open\_paths & blocked\_paths \\
+        \midrule
+        linear & 0.0008 & 0.0005 & 0.0351 & 0.946 & 16 & 16.0 \\
+        stepwise & 0.0008 & 0.0006 & 0.034 & 0.9445 & 16 & 15.993 \\
+        stepwise\_X & 0.0008 & 0.0005 & 0.0335 & 0.945 & 16 & 15.999 \\
+        two\_step\_LASSO & 0.0008 & 0.0006 & 0.035 & 0.946 & 16 & 15.999 \\
+        two\_step\_LASSO\_X & 0.0008 & 0.0005 & 0.0346 & 0.946 & 16 & 16.0 \\
+    \bottomrule
+\end{tabular}
