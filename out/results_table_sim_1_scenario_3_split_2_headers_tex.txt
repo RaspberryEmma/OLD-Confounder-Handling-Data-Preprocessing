@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        \multirow{2}{*}{Statistical Method} & \multicolumn{6}{c}{Result measured} \\           & causal\_effect\_mcse & causal\_effect\_bias & avg\_abs\_param\_bias & coverage & open\_paths & blocked\_paths \\
+        \midrule
+        linear & 0.0008 & 0.0002 & 0.0283 & 0.958 & 32 & 32.0 \\
+        stepwise & 0.0008 & 0.0008 & 0.0279 & 0.954 & 32 & 31.893 \\
+        stepwise\_X & 0.0008 & 0.0003 & 0.0278 & 0.959 & 32 & 31.967 \\
+        two\_step\_LASSO & 0.0008 & 0.0002 & 0.0283 & 0.958 & 32 & 31.9975 \\
+        two\_step\_LASSO\_X & 0.0008 & 0.0002 & 0.0281 & 0.958 & 32 & 31.9995 \\
+    \bottomrule
+\end{tabular}

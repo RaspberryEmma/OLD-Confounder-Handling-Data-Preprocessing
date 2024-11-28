@@ -1,0 +1,12 @@
+\begin{tabular}{@{}cccccccc@{}}
+    \toprule
+        \multirow{2}{*}{Statistical Method} & \multicolumn{6}{c}{Coefficient} \\           & intercept & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        true\_values & 1.0 & 0.5 & 0.1443 & 0.1443 & 0.1443 & 0.1443 &  \\
+        linear & 1.0007 & 0.5003 & 0.1441 & 0.145 & 0.1442 & 0.1439 & -0.0017 \\
+        stepwise & 0.9928 & 0.5082 & 0.139 & 0.1401 & 0.1391 & 0.1387 & -0.0016 \\
+        stepwise\_X & 0.9952 & 0.506 & 0.1348 & 0.1348 & 0.1345 & 0.1343 & -0.0004 \\
+        two\_step\_LASSO & 1.0006 & 0.5004 & 0.144 & 0.1449 & 0.1442 & 0.1439 & -0.0016 \\
+        two\_step\_LASSO\_X & 1.0007 & 0.5004 & 0.1436 & 0.1444 & 0.1436 & 0.1434 & -0.0015 \\
+    \bottomrule
+\end{tabular}
