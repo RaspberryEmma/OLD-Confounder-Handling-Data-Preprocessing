@@ -1,0 +1,6 @@
+Unnamed: 0,causal_effect_mcse,causal_effect_bias,avg_abs_param_bias,coverage,open_paths,blocked_paths
+linear,0.0008,0.0004,0.0286,0.9495,64,64.0
+stepwise,0.0009,0.0164,0.0312,0.886,64,59.1775
+stepwise_X,0.0008,0.009,0.0315,0.9395,64,61.324
+two_step_LASSO,0.0008,0.0005,0.0286,0.949,64,63.813
+two_step_LASSO_X,0.0008,0.0004,0.0286,0.9495,64,63.9215

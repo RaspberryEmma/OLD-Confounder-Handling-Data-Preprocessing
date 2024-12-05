@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        \multirow{2}{*}{Statistical Method} & \multicolumn{6}{c}{Result measured} \\           & pred\_mse & r\_squared\_X & r\_squared\_Y & model\_SE & emp\_SE & causal\_effect\_est \\
+        \midrule
+        linear & 0.6863 & 0.439 & 0.6263 & 0.0281 & 0.0281 & 0.2503 \\
+        stepwise & 0.6873 & 0.439 & 0.6258 & 0.0279 & 0.0289 & 0.2528 \\
+        stepwise\_X & 0.7143 & 0.439 & 0.611 & 0.0286 & 0.03 & 0.2589 \\
+        two\_step\_LASSO & 0.6863 & 0.439 & 0.6263 & 0.0281 & 0.0281 & 0.2504 \\
+        two\_step\_LASSO\_X & 0.6873 & 0.439 & 0.6258 & 0.0281 & 0.028 & 0.2504 \\
+    \bottomrule
+\end{tabular}

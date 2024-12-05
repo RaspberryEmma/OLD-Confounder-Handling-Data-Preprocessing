@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        Unnamed: 0 & pred\_mse & r\_squared\_X & r\_squared\_Y & model\_SE & emp\_SE & causal\_effect\_est \\
+        \midrule
+        linear & 3.5759 & 0.2093 & 0.4272 & 0.0335 & 0.0339 & 0.5001 \\
+        stepwise & 3.6566 & 0.2093 & 0.4142 & 0.0316 & 0.0477 & 0.5313 \\
+        stepwise\_X & 3.914 & 0.2093 & 0.373 & 0.0342 & 0.0444 & 0.5285 \\
+        two\_step\_LASSO & 3.5797 & 0.2093 & 0.4265 & 0.0329 & 0.0349 & 0.5027 \\
+        two\_step\_LASSO\_X & 3.6523 & 0.2093 & 0.4149 & 0.0337 & 0.034 & 0.5012 \\
+    \bottomrule
+\end{tabular}

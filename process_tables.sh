@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 # Round every table to 4 significant figures
 
 python rounding.py data/sim-1-scenario-1-model-coefs.csv  temp/model_coefs_sim_1_scenario_1_rounded.csv
