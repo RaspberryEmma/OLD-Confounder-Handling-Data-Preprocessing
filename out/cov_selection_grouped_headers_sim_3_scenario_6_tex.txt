@@ -1,0 +1,11 @@
+\begin{tabular}{@{}ccccccc@{}}
+    \toprule
+        \multirow{2}{*}{Statistical Method} & \multicolumn{6}{c}{Proportion of repetitions selected} \\           & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
+        \midrule
+        linear & 1 & 1.0 & 1.0 & 1.0 & 1.0 & 1.0 \\
+        stepwise & 1 & 0.6459 & 0.6526 & 0.6478 & 0.6508 & 0.182 \\
+        stepwise\_X & 1 & 0.6568 & 0.6543 & 0.6539 & 0.6481 & 0.1735 \\
+        two\_step\_LASSO & 1 & 0.9419 & 0.9419 & 0.9412 & 0.9435 & 0.75 \\
+        two\_step\_LASSO\_X & 1 & 0.9408 & 0.9415 & 0.9426 & 0.9405 & 0.7415 \\
+    \bottomrule
+\end{tabular}
