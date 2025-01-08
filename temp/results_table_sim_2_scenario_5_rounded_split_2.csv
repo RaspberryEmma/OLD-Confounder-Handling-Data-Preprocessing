@@ -1,6 +1,7 @@
-Unnamed: 0,causal_effect_mcse,causal_effect_bias,avg_abs_param_bias,coverage,open_paths,blocked_paths
-linear,0.0006,0.0003,0.0227,0.9495,64,64.0
-stepwise,0.0006,0.0028,0.0229,0.941,64,63.166
-stepwise_X,0.0006,0.0089,0.026,0.939,64,61.324
-two_step_LASSO,0.0006,0.0004,0.0227,0.9495,64,63.9825
-two_step_LASSO_X,0.0006,0.0004,0.0228,0.9495,64,63.9215
+Unnamed: 0,causal_effect_bias,causal_effect_mcse,avg_abs_param_bias,coverage,open_paths,blocked_paths
+linear,0.0013,0.0,0.0254,0.953,64,64.0
+linear_no_Z,0.6002,0.0,0.1646,0.0,64,0.0
+stepwise,0.0014,0.0,0.0251,0.952,64,63.986
+stepwise_X,0.0016,0.0,0.0251,0.954,64,63.961
+two_step_LASSO,0.0013,0.0,0.0254,0.953,64,64.0
+two_step_LASSO_X,0.0013,0.0,0.0253,0.953,64,64.0

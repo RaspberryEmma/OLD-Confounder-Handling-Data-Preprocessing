@@ -3,6 +3,7 @@
         Unnamed: 0 & X & Z\_LL & Z\_LH & Z\_HL & Z\_HH & Z\_dummy \\
         \midrule
         linear & 0 & 0.0 & 0.0 & 0.0 & 0.0 & 0 \\
+        linear\_no\_Z & 0 & 0.0 & 0.0 & 0.0 & 0.0 & 0 \\
         stepwise & 0 & 0.0 & 0.0 & 0.0 & 0.0 & 0 \\
         stepwise\_X & 0 & 0.0 & 0.0 & 0.0 & 0.0 & 0 \\
         two\_step\_LASSO & 0 & 0.0 & 0.0 & 0.0 & 0.0 & 0 \\

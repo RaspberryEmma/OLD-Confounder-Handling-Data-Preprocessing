@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
-for ((i=1;i<3;i++));do
-	for ((j=5;j<7;j++));do
+for i in 1 2;
+do
+	for j in 5 6;
+	do
 		# Round every table to 4 significant figures
 		python rounding.py "data/sim-"$i"-scenario-"$j"-model-coefs.csv"            "temp/model_coefs_sim_"$i"_scenario_"$j"_rounded.csv"
 		python rounding.py "data/sim-"$i"-scenario-"$j"-model-coefs-grouped.csv"    "temp/model_coefs_grouped_sim_"$i"_scenario_"$j"_rounded.csv"

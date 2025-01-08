@@ -1,11 +1,12 @@
-\begin{tabular}{@{}ccccccc@{}}
+\begin{tabular}{@{}cccccccc@{}}
     \toprule
-        Unnamed: 0 & pred\_mse & r\_squared\_X & r\_squared\_Y & model\_SE & emp\_SE & causal\_effect\_est \\
+        Unnamed: 0 & pred\_mse & r\_squared\_X & r\_squared\_Y & model\_SE & emp\_SE & causal\_true\_val & causal\_effect\_est \\
         \midrule
-        linear & 3.1744 & 0.2093 & 0.3201 & 0.0315 & 0.0318 & 0.2502 \\
-        stepwise & 3.2421 & 0.2093 & 0.3055 & 0.03 & 0.0441 & 0.2784 \\
-        stepwise\_X & 3.5015 & 0.2093 & 0.25 & 0.0323 & 0.043 & 0.2786 \\
-        two\_step\_LASSO & 3.1763 & 0.2093 & 0.3197 & 0.0311 & 0.0324 & 0.2517 \\
-        two\_step\_LASSO\_X & 3.2483 & 0.2093 & 0.3042 & 0.0318 & 0.0319 & 0.2513 \\
+        linear & 1.1176 & 0.4751 & 0.7523 & 0.03 & 0.0296 & 0.5 & 0.7725 \\
+        linear\_no\_Z & 1.5002 & 0.4751 & 0.6676 & 0.0246 & 0.0245 & 0.5 & 1.099 \\
+        stepwise & 1.1208 & 0.4751 & 0.7516 & 0.0294 & 0.0328 & 0.5 & 0.7804 \\
+        stepwise\_X & 1.1211 & 0.4751 & 0.7516 & 0.03 & 0.0296 & 0.5 & 0.7731 \\
+        two\_step\_LASSO & 1.1176 & 0.4751 & 0.7523 & 0.03 & 0.0296 & 0.5 & 0.7725 \\
+        two\_step\_LASSO\_X & 1.1178 & 0.4751 & 0.7523 & 0.03 & 0.0296 & 0.5 & 0.7725 \\
     \bottomrule
 \end{tabular}
